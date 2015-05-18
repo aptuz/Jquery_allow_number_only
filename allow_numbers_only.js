@@ -203,6 +203,6 @@ $.fn.allowNumbersOnly = function(data){
 
 
 //usage
-$('[data-rules*="\"numeric\":\"true\""][id^="id_bnkstmtransaction_set-"][id$="-amount"]').allowNumbersOnly({
+$('input[type="text"]').allowNumbersOnly({
 	'sign':false
 });
